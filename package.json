@@ -1,0 +1,33 @@
+{
+  "name": "faar-io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "None"
+  },
+  "keywords": [
+    "faar",
+    "faar-io",
+    "faario",
+    "io"
+  ],
+  "author": "SBTopZZZ-LG",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "net": "^1.0.2",
+    "ngrok": "^4.2.2",
+    "node-json-db": "^1.4.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
