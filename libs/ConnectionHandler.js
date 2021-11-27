@@ -23,6 +23,8 @@ class ConnectionHandler {
             if (index == -1)
                 return;
             this.data[id].splice(index)
+            if (this.data[id].length == 0)
+                delete this.data[id]
         }
     }
 
